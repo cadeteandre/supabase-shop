@@ -9,7 +9,7 @@ const ItemList: React.FC<IITemListProps> = ({ items }) => {
 
     return (  
         <section>
-            <h1 className="text-center pb-2 text-3xl font-bold">Items</h1>
+            <h1 className="text-2xl font-bold text-center text-zinc-600">Items</h1>
             <div className="flex flex-wrap w-full gap-4">
                 <ItemCard items={items} />
             </div>

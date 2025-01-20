@@ -9,7 +9,6 @@ const CustomerSection = () => {
 
     return (  
         <section className="felx gap-2">
-            <h1 className="text-2xl font-bold text-center text-zinc-600">Customer List</h1>
             <div className="flex gap-4">
                 <AddCustomer setCustomers={setCustomers} />
                 <CustomerList customers={customers} />

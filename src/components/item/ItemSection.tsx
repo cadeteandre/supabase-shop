@@ -7,7 +7,7 @@ const ItemSection = () => {
 
     const [items, setItems] = useState<TItem[]>([])
     return (  
-        <section>
+        <section className="flex gap-4">
             <AddItem setItems={setItems} />
             <ItemList items={items} />
         </section>
